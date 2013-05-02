@@ -4,7 +4,7 @@ tags:
 - business
 - productivity
 ---
-{% img /images/content/make_your_bed.jpg %}
+![Make Your Bed](/images/posts/make_your_bed.jpg)
 
 About two years ago, I made the transition from working at a large
 corporate campus to working for myself, from home. To say I suffered
@@ -34,7 +34,7 @@ bed.
 
 Right after I stumble out of bed, I pull up the sheets and make sure my
 bed is tidy. I don't spend a lot of time on it and I certainly don't make
-[http://artofmanliness.com/2009/11/19/how-to-make-a-bed-you-can-bounce-a-quarter-off-of/][hospital corners].
+[hospital corners](http://artofmanliness.com/2009/11/19/how-to-make-a-bed-you-can-bounce-a-quarter-off-of/).
 Being perfect is not the goal. In fact, making my
 bed is just a means of accomplishing something more important, a easy
 habit resulting in a small victory.
