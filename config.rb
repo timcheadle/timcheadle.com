@@ -86,3 +86,8 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
+
+# Copy over dotfiles after build
+after_build do
+  FileUtils.cp_r 'source/.nojekyll', '../build/.nojekyll'
+end
