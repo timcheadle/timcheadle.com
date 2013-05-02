@@ -78,5 +78,8 @@ end
 
 # Blog configuration
 activate :blog do |blog|
+  blog.prefix    = 'posts'
   blog.permalink = ':year/:month/:day/:title'
 end
+
+activate :directory_indexes
