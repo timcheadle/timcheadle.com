@@ -47,7 +47,7 @@
 #   end
 # end
 
-set :css_dir, 'css'
+set :css_dir, 'stylesheets'
 
 set :js_dir, 'js'
 
@@ -75,6 +75,9 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+# Livereload
+activate :livereload
 
 # Blog configuration
 activate :blog do |blog|
