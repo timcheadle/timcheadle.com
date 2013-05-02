@@ -75,3 +75,8 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+# Blog configuration
+activate :blog do |blog|
+  blog.permalink = ':year/:month/:day/:title'
+end
