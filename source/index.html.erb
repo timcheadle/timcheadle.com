@@ -2,9 +2,8 @@
 title: Welcome to Middleman
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<ul>
+<% blog.articles[0..5].each do |article| %>
+  <li><a href="<%= article.url %>"><%= article.title %></a></li>
+<% end %>
+</ul>
