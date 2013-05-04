@@ -1,0 +1,67 @@
+//
+// Type Definitions
+//
+$serif: Merriweather, Georgia, Cambria, serif;
+$sans_serif: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+//
+// Type Configuration
+//
+$header_font: $serif;
+$header_color: $dark_gray;
+
+$body_font: $serif;
+$body_color: $dark_gray;
+
+$link_color: lighten($dark_gray, 10%);
+$link_color_active: $link_color;
+$link_color_hover: $link_color;
+
+
+
+//
+// Body text
+//
+body, button, input, select {
+  @include font-size(16px);
+  font-family: $serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-family: $header_font;
+}
+
+h1 { @include font-size(44px); font-weight: 900; }
+h2 { @include font-size(34px); }
+h3 { @include font-size(28px); }
+h4 { @include font-size(18px); }
+
+
+//
+// Links
+//
+a {
+  color: $link_color;
+
+  &:active {
+    color: $link_color_active;
+  }
+  &:hover {
+    color: $link_color_hover;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  a {
+    text-decoration: none;
+  }
+}
+
+
+//
+// Web Fonts
+//
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,700,300);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,500,700);
