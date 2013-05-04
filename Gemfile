@@ -8,5 +8,5 @@ gem 'middleman-gh-pages', '~> 0.0.2'
 gem 'middleman-livereload', '~> 3.0.1'
 
 gem 'compass', '~> 0.12.2'
+gem 'nokogiri', '~> 1.5.9'
 gem 'redcarpet', '~> 2.2.0'
-gem 'susy', '~> 1.0.8'

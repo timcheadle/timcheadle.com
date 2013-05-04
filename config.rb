@@ -41,11 +41,12 @@
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+ helpers do
+   def blog_gravatar(size=100)
+     hash = Digest::MD5.hexdigest(settings.blog_email.downcase)
+     "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
+   end
+ end
 
 set :css_dir, 'stylesheets'
 
@@ -84,6 +85,10 @@ activate :blog do |blog|
   blog.prefix    = 'posts'
   blog.permalink = ':year/:month/:day/:title'
 end
+
+# Blog Settings
+set :blog_title, 'Tim Cheadle'
+set :blog_email, 'tim@rationalmeans.com'
 
 activate :directory_indexes
 

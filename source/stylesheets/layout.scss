@@ -1,0 +1,46 @@
+//
+// Container
+//
+.container {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 20px;
+  position: relative;
+}
+
+
+//
+// Header
+//
+.container > header {
+  @include clearfix;
+  margin: 20px auto;
+
+  .gravatar {
+    @include border-radius(50%);
+    float: right;
+    height: 100px;
+    margin: 0;
+    overflow: hidden;
+    width: 100px;
+  }
+
+  .title {
+    margin-top: 32px;
+  }
+
+  nav {
+    ul {
+      @include horizontal-list;
+    }
+  }
+}
+
+
+//
+// Articles
+//
+#content > article {
+  margin-bottom: 80px;
+  border-bottom: 1px solid $color_article_border;
+}
