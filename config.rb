@@ -82,6 +82,7 @@ activate :livereload
 
 # Blog configuration
 activate :blog do |blog|
+  blog.layout    = 'post'
   blog.prefix    = 'posts'
   blog.permalink = ':year/:month/:day/:title'
 end

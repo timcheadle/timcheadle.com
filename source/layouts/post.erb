@@ -1,0 +1,11 @@
+<% wrap_layout :layout do %>
+  <section id="content">
+    <article class="post standalone">
+      <header>
+        <h1><%= current_page.data.title %></a></h1>
+      </header>
+
+      <%= yield %>
+    </article>
+  </section>
+<% end %>
