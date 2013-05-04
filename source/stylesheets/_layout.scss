@@ -14,7 +14,8 @@
 //
 .container > header {
   @include clearfix;
-  margin: 20px auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
 
   .gravatar {
     @include border-radius(50%);
@@ -26,12 +27,16 @@
   }
 
   .title {
-    margin-top: 32px;
+    margin-top: 18px;
   }
 
   nav {
     ul {
       @include horizontal-list;
+
+      li {
+        margin-right: 10px;
+      }
     }
   }
 }
@@ -41,6 +46,10 @@
 // Articles
 //
 #content > article {
-  margin-bottom: 80px;
   border-bottom: 1px solid $color_article_border;
+  padding: 40px 0;
+
+  header {
+    margin-bottom: 17px;
+  }
 }

@@ -1,11 +1,30 @@
 //
 // Color definitions
 //
-$light_gray: #ccc;
-$dark_gray: #444;
+$light_gray: #d4d4d3;
+$medium_gray: #bbb;
+$dark_gray: #444443;
+
+$dark_orange: #D1442A;
 
 
 //
-// Color configuration
+// Layout Colors
 //
 $color_article_border: $light_gray;
+
+//
+
+// Type Colors
+//
+$header_color: $dark_orange;
+$header_nav_color: $medium_gray;
+
+$body_color: $dark_gray;
+
+$link_color: $dark_orange;
+$link_color_hover: darken($link_color, 10%);
+$link_color_visited: darken($link_color, 3%);
+
+$article_header_color: $header_color;
+$article_meta_color: $medium_gray;
