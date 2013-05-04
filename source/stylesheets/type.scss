@@ -1,0 +1,30 @@
+//
+// Type Options
+//
+$serif: Merriweather, Georgia, Cambria, serif;
+$sans_serif: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+//
+// Type Mixins
+//
+@mixin font-size($size) {
+  font-size: $size;
+  line-height: $size * 1.48;
+}
+
+
+//
+// General typography
+//
+body, button, input, select {
+  @include font-size(16px);
+  font-family: $serif;
+}
+
+
+//
+// Web Fonts
+//
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,700,300);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,500,700);
