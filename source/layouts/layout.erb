@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><%= data.page.title ? "#{data.page.title} &ndash; " : '' %>Tim Cheadle</title>
+    <title><%= current_page.data.title ? "#{current_page.data.title} &ndash; " : '' %>Tim Cheadle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -23,12 +23,14 @@
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <%= partial 'layouts/header' %>
-      </header>
+    <div id="wrapper">
+      <div class="container">
+        <header>
+          <%= partial 'layouts/header' %>
+        </header>
 
-      <%= yield %>
+        <%= yield %>
+      </div>
     </div>
 
     <footer>
