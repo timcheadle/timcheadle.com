@@ -1668,13 +1668,16 @@ body > footer {
     body > footer a:hover {
       color: #bbbbb9; }
   /* line 197, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  body > footer .about a {
+    text-decoration: underline; }
+  /* line 201, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer .contact ul {
     list-style: none;
     padding-left: 0;
     text-indent: 0; }
-    /* line 202, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 206, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body > footer .contact ul li i {
       padding-right: 8px; }
-  /* line 207, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 211, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer .copyright {
     font-size: 13px; }
