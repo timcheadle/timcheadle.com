@@ -36,6 +36,13 @@ h2 { font-size: 29px; font-weight: 900; }
 h3 { font-size: 24px; font-weight: 700; }
 h4 { font-size: 19px; font-weight: 500; }
 
+@include breakpoint(small) {
+  h1 { font-size: 29px; font-weight: 900; }
+  h2 { font-size: 24px; font-weight: 900; }
+  h3 { font-size: 19px; font-weight: 700; }
+  h4 { font-size: 16px; font-weight: 500; }
+}
+
 p {
   margin-bottom: 1.5em;
 }

@@ -15,7 +15,12 @@
 .container > header {
   @include clearfix;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+
+  @include breakpoint(small) {
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
   .gravatar {
     @include border-radius(50%);
@@ -24,6 +29,11 @@
     margin: 0;
     overflow: hidden;
     width: 100px;
+
+    @include breakpoint(small) {
+      float: none;
+      margin: 0 auto;
+    }
   }
 
   .title {
@@ -32,10 +42,18 @@
 
   nav {
     ul {
-      @include horizontal-list;
+      @include inline-list;
+
+      @include breakpoint(small) {
+        margin: 0 auto;
+      }
 
       li {
-        margin-right: 10px;
+        margin-left: 10px;
+
+        &:first-child {
+          margin-left: 0;
+        }
       }
     }
   }
@@ -52,4 +70,14 @@
   header {
     margin-bottom: 17px;
   }
+}
+
+
+//
+// Responsive Shizz
+//
+img, embed, iframe {
+  display: block;
+  border: 0;
+  max-width: 100%;
 }

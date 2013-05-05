@@ -1,0 +1,11 @@
+//
+// Responsive Mixins
+//
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (max-width: 500px) { @content; }
+  }
+  @elseif $point == medium {
+    @media (max-width: 750px) { @content; }
+  }
+}
