@@ -123,18 +123,19 @@ body > header {
     line-height: 1.4;
   }
 
-  nav {
+  .subtitle, nav {
     @extend %nav-font;
+    color: $header_nav_color;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1;
     padding: 0;
+    text-shadow: 1px 1px lighten($article_meta_color, 22%);
+    text-transform: uppercase;
+  }
 
+  nav {
     li {
-      color: $header_nav_color;
-      font-size: 14px;
-      font-weight: 500;
-      text-shadow: 1px 1px lighten($article_meta_color, 22%);
-      text-transform: uppercase;
-
       a {
         color: $header_nav_color;
         text-decoration: none;
