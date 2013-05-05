@@ -1,28 +1,37 @@
 //
 // Type Definitions
 //
-$serif: Merriweather, Georgia, Cambria, serif;
-$sans_serif: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+%serif {
+  font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, Cambria, serif;
+  -webkit-font-smoothing: antialiased;
+}
+%sans-serif {
+  font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
 
 
 //
 // Type Configuration
 //
-$header_font: $serif;
-$body_font: $serif;
+%header-font { @extend %serif };
+%body-font   { @extend %serif };
+%nav-font    { @extend %sans-serif };
+%footer-font { @extend %sans-serif };
 
-$article_header_font: $serif;
-$article_meta_font: $sans_serif;
-
+%article-header-font { @extend %serif };
+%article-meta-font   { @extend %sans-serif };
 
 
 //
 // Body text
 //
 body, button, input, select {
-  font-size: 19px;
-  font-family: $serif;
+  @extend %body-font;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.5;
+  text-rendering: optimizeLegibility;
 
   @include breakpoint(medium) {
     font-size: 16px;
@@ -31,7 +40,7 @@ body, button, input, select {
 
 h1, h2, h3, h4, h5, h6 {
   color: $header_color;
-  font-family: $header_font;
+  @extend header-font;
   line-height: 1.7;
 }
 
@@ -109,17 +118,18 @@ ul { list-style: disc inside; }
 // Header
 //
 .container > header {
-  font-family: $sans_serif;
   font-weight: 300;
 
   h1 {
+    @extend %article-header-font;
     font-size: 29px;
     line-height: 1.4;
   }
 
   nav {
-    padding: 0;
+    @extend %nav-font;
     line-height: 1;
+    padding: 0;
 
     li {
       color: $header_nav_color;
@@ -149,7 +159,7 @@ ul { list-style: disc inside; }
     time {
       color: $article_meta_color;
       display: block;
-      font-family: $sans_serif;
+      @extend %article-meta-font;
       font-size: 13px;
       font-weight: 500;
       padding-top: 3px;
@@ -164,9 +174,14 @@ ul { list-style: disc inside; }
 // Footer
 //
 body > footer {
-  font-family: $sans_serif;
+  @extend %footer-font;
   font-size: 15px;
   font-weight: 300;
+
+  h4 {
+    @extend %header-font;
+    font-weight: bold;
+  }
 
   a {
     color: inherit;
@@ -200,5 +215,5 @@ body > footer {
 //
 // Web Fonts
 //
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,700,300);
+//@import url(http://fonts.googleapis.com/css?family=Merriweather:400,900,700,300);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,500,700);
