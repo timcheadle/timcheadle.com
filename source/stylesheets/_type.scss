@@ -139,6 +139,10 @@ body > footer {
     &:hover {
       color: darken($light_gray, 10%);
     }
+
+    i {
+      padding-right: 7px;
+    }
   }
 
   .copyright {
