@@ -20,7 +20,7 @@ $article_meta_font: $sans_serif;
 // Body text
 //
 body, button, input, select {
-  font-size: 16px;
+  font-size: 19px;
   font-family: $serif;
   line-height: 1.5;
 }
@@ -47,6 +47,9 @@ p {
   margin-bottom: 1.5em;
 }
 
+em { font-style: italic; }
+strong { font-style: bold; }
+
 
 //
 // Links
@@ -68,6 +71,34 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
   }
 }
+
+
+//
+// Lists
+//
+ol, ul {
+  margin-bottom: 1.5em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+ol, ul {
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+
+  li {
+    padding-bottom: 0.2em;
+  }
+}
+
+ol { list-style: decimal inside; }
+ul { list-style: disc inside; }
 
 
 //
