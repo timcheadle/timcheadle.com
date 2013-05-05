@@ -3,7 +3,7 @@
     <article class="post standalone">
       <header>
         <h1><%= current_page.data.title %></a></h1>
-        <time datetime="<%= article.date %>"><%= article.date.strftime('%B %e, %Y') %></time>
+        <time datetime="<%= current_page.data.date %>"><%= current_page.data.date.strftime('%B %e, %Y') %></time>
       </header>
 
       <%= yield %>
