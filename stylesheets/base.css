@@ -1495,132 +1495,136 @@ body, button, input, select {
   font-size: 19px;
   font-family: Merriweather, Georgia, Cambria, serif;
   line-height: 1.5; }
+  @media (max-width: 500px) {
+    /* line 22, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    body, button, input, select {
+      font-size: 16px; } }
 
-/* line 28, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 32, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #d1442a;
   font-family: Merriweather, Georgia, Cambria, serif;
   line-height: 1.7; }
 
-/* line 34, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 38, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h1 {
   font-size: 36px;
   font-weight: 900; }
 
-/* line 35, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 39, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h2 {
   font-size: 29px;
   font-weight: 900; }
 
-/* line 36, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 40, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h3 {
   font-size: 24px;
   font-weight: 700; }
 
-/* line 37, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 41, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h4 {
   font-size: 19px;
   font-weight: 500; }
 
 @media (max-width: 500px) {
-  /* line 40, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 44, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h1 {
     font-size: 29px;
     font-weight: 900; }
 
-  /* line 41, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 45, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h2 {
     font-size: 24px;
     font-weight: 900; }
 
-  /* line 42, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 46, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h3 {
     font-size: 19px;
     font-weight: 700; }
 
-  /* line 43, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 47, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h4 {
     font-size: 16px;
     font-weight: 500; } }
-/* line 46, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 50, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 p {
   margin-bottom: 1.5em; }
 
-/* line 50, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 54, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 em {
   font-style: italic; }
 
-/* line 51, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 55, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 strong {
   font-style: bold; }
 
-/* line 57, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 61, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 a {
   color: #d1442a; }
-  /* line 60, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 64, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   a:visited {
     color: #c44027; }
-  /* line 63, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 67, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   a:hover {
     color: #a73621; }
 
-/* line 69, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 73, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #d1442a;
   text-decoration: none; }
 
-/* line 79, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 83, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ol, ul {
   margin-bottom: 1.5em; }
 
-/* line 86, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 90, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ul ul,
 ul ol,
 ol ol,
 ol ul {
   margin-bottom: 0; }
 
-/* line 90, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 94, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ol, ul {
   margin-left: 0;
   padding-left: 1em;
   text-indent: -1em; }
-  /* line 95, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 99, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   ol li, ul li {
     padding-bottom: 0.2em; }
 
-/* line 100, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 104, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ol {
   list-style: decimal inside; }
 
-/* line 101, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 105, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ul {
   list-style: disc inside; }
 
-/* line 107, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 111, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 .container > header {
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
-  /* line 111, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 115, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   .container > header h1 {
     font-size: 29px;
     line-height: 1.4; }
-  /* line 117, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 121, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   .container > header nav li {
     color: #bbbbbb;
     font-size: 14px;
     font-weight: 500;
     text-shadow: 1px 1px #f3f3f3;
     text-transform: uppercase; }
-    /* line 124, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 128, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     .container > header nav li a {
       color: inherit;
       text-decoration: none; }
 
-/* line 138, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 142, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 #content > article header h1, #content > article header h2 {
   line-height: 1.3; }
-/* line 142, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 146, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 #content > article header time {
   color: #bbbbbb;
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1629,21 +1633,21 @@ ul {
   text-shadow: 1px 1px #f3f3f3;
   text-transform: uppercase; }
 
-/* line 157, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 161, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 body > footer {
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300; }
-  /* line 162, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 166, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer a {
     color: inherit;
     text-decoration: none; }
-    /* line 166, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 170, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body > footer a:visited {
       color: inherit; }
-    /* line 170, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 174, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body > footer a:hover {
       color: #bbbbb9; }
-  /* line 175, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 179, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer .copyright {
     font-size: 13px; }
