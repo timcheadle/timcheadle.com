@@ -6,6 +6,6 @@
     @media (max-width: 500px) { @content; }
   }
   @elseif $point == medium {
-    @media (max-width: 750px) { @content; }
+    @media (max-width: 640px) { @content; }
   }
 }
