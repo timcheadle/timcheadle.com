@@ -24,7 +24,7 @@ body, button, input, select {
   font-family: $serif;
   line-height: 1.5;
 
-  @include breakpoint(small) {
+  @include breakpoint(medium) {
     font-size: 16px;
   }
 }
@@ -40,7 +40,7 @@ h2 { font-size: 29px; font-weight: 900; }
 h3 { font-size: 24px; font-weight: 700; }
 h4 { font-size: 19px; font-weight: 500; }
 
-@include breakpoint(small) {
+@include breakpoint(medium) {
   h1 { font-size: 29px; font-weight: 900; }
   h2 { font-size: 24px; font-weight: 900; }
   h3 { font-size: 19px; font-weight: 700; }
@@ -118,6 +118,9 @@ ul { list-style: disc inside; }
   }
 
   nav {
+    padding: 0;
+    line-height: 1;
+
     li {
       color: $header_nav_color;
       font-size: 14px;
@@ -145,9 +148,11 @@ ul { list-style: disc inside; }
 
     time {
       color: $article_meta_color;
+      display: block;
       font-family: $sans_serif;
       font-size: 13px;
       font-weight: 500;
+      padding-top: 3px;
       text-shadow: 1px 1px lighten($article_meta_color, 22%);
       text-transform: uppercase;
     }
@@ -173,6 +178,16 @@ body > footer {
 
     &:hover {
       color: darken($light_gray, 10%);
+    }
+  }
+
+  .contact ul {
+    list-style: none;
+    padding-left: 0;
+    text-indent: 0;
+
+    li i {
+      padding-right: 8px;
     }
   }
 

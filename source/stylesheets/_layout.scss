@@ -2,7 +2,7 @@
 // Structure
 //
 $footer_height: 300px;
-$footer_responsive_height: 450px;
+$footer_responsive_height: 480px;
 
 html, body, #wrapper {
   height: 100%;
@@ -150,7 +150,7 @@ body > footer {
     float: left;
 
     &.about {
-      padding-right: 40px;
+      padding-right: 60px;
       width: 70%;
     }
 
