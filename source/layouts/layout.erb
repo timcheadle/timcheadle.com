@@ -26,11 +26,12 @@
   </head>
 
   <body>
+    <header>
+      <%= partial 'layouts/header' %>
+    </header>
+
     <div id="wrapper">
       <div class="container">
-        <header>
-          <%= partial 'layouts/header' %>
-        </header>
 
         <section id="content">
           <%= yield %>

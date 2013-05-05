@@ -14,13 +14,15 @@ body {
   width: 100%;
 }
 
-#wrapper, body > footer {
+body > header,
+#wrapper,
+body > footer {
   display: table-row;
   height: 1px;
 }
 
 #wrapper {
-  height: auto;
+  height: 100%;
 }
 
 
@@ -46,10 +48,8 @@ body {
 //
 // Header
 //
-.container > header {
+body > header {
   @include clearfix;
-  margin-top: 40px;
-  margin-bottom: 40px;
 
   @include breakpoint(small) {
     margin-bottom: 20px;
@@ -60,21 +60,29 @@ body {
     @include border-radius(50%);
     float: right;
     height: 100px;
-    margin: 0;
+    margin: 40px 0;
     overflow: hidden;
     width: 100px;
 
     @include breakpoint(small) {
       float: none;
-      margin: 0 auto;
+      margin: 40px auto 30px;
     }
   }
 
   .title {
-    margin-top: 18px;
+    margin-top: 58px;
+
+    @include breakpoint(small) {
+      margin-top: 0;
+    }
   }
 
   nav {
+    @include breakpoint(small) {
+      margin-bottom: 20px;
+    }
+
     ul {
       @include inline-list;
 
@@ -95,6 +103,14 @@ body {
 
 
 //
+// Content
+//
+#content {
+  padding: 20px 0;
+}
+
+
+//
 // Articles
 //
 #content > article {
@@ -103,6 +119,11 @@ body {
 
   &:first-child {
     border-top: none;
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 20px;
   }
 
   &.standalone {
