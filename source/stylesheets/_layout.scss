@@ -1,40 +1,27 @@
 //
 // Structure
 //
-$footer_height: 300px;
-$footer_responsive_height: 480px;
-
-html, body, #wrapper {
+// Uses sticky footer technique from here:
+// http://pixelsvsbytes.com/blog/2011/09/sticky-css-footers-the-flexible-way/
+//
+html, body {
   height: 100%;
+}
+
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#wrapper, body > footer {
+  display: table-row;
+  height: 1px;
 }
 
 #wrapper {
   height: auto;
-  min-height: 100%;
 }
-
-#wrapper > .container {
-  padding-bottom: $footer_height;
-}
-
-body > footer {
-  position: relative;
-  margin-top: -$footer_height;
-  height: $footer_height;
-  clear: both;
-}
-
-@include breakpoint(medium) {
-  #wrapper > .container {
-    padding-bottom: $footer_responsive_height;
-  }
-
-  body > footer {
-    margin-top: -$footer_responsive_height;
-    height: $footer_responsive_height;
-  }
-}
-
 
 
 //
@@ -140,14 +127,13 @@ nav.pagination {
 // Footer
 //
 body > footer {
-  @include box-sizing(border-box);
   background-color: $footer_background_color;
   color: $footer_color;
-  padding: 40px 0;
 
   section {
     @include box-sizing(border-box);
     float: left;
+    padding: 40px 0;
 
     &.about {
       padding-right: 60px;
@@ -156,15 +142,31 @@ body > footer {
 
     &.contact {
       width: 30%;
+
+      ul {
+        margin-bottom: 0;
+      }
+    }
+
+    &.copyright {
+      clear: both;
     }
 
     @include breakpoint(medium) {
       float: none;
-      margin-bottom: 30px;
+      padding: 20px 0;
 
-      &.about, &.contact {
+      &.about, &.contact, &.copyright {
         padding-right: 0;
         width: 100%;
+      }
+
+      &.about {
+        padding-top: 40px;
+      }
+
+      &.copyright {
+        padding-bottom: 40px;
       }
     }
 
@@ -174,14 +176,6 @@ body > footer {
     }
   }
 
-  .copyright {
-    clear: both;
-    padding-top: 40px;
-
-    @include breakpoint(medium) {
-      padding-top: 20px;
-    }
-  }
 }
 
 
