@@ -1,5 +1,6 @@
 ---
 title: Notes from Kenya Hara
+date: 2013-01-06 00:00 UTC
 tags: 
 ---
 While cleaning my office I found some notes I took from this

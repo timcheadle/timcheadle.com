@@ -1,5 +1,6 @@
 ---
 title: Make Your Bed, Be More Productive
+date: 2012-06-29 00:00 UTC
 tags:
 - business
 - productivity

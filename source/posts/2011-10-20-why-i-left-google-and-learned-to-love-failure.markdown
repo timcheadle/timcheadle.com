@@ -1,5 +1,6 @@
 ---
 title: Why I Left Google and Learned to Love Failure
+date: 2011-10-20 00:00 UTC
 tags:
 ---
 I was invited to give a talk at the first annual [PajamaConf](http://www.pajamaconf.com)

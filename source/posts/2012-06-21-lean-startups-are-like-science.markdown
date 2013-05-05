@@ -1,5 +1,6 @@
 ---
 title: Lean Startups Are Like Science
+date: 2012-06-21 00:00 UTC
 tags:
 - startups
 - business

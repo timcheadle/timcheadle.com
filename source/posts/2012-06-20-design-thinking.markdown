@@ -1,5 +1,6 @@
 ---
 title: Design Thinking
+date: 2012-06-20 00:00 UTC
 tags:
 - design
 - talks
