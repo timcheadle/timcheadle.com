@@ -18,5 +18,5 @@ gaining new understanding in the process.
 
 You can watch the talk here in its entirety:
 
-<iframe frameborder="0" height="360"
-src="http://www.youtube.com/embed/PG4uRmTJUU8" width="480"></iframe>
+<iframe frameborder="0" height="360" src="http://www.youtube.com/embed/PG4uRmTJUU8" width="480">
+</iframe>

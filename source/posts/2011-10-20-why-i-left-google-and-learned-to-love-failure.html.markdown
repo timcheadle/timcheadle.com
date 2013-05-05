@@ -14,6 +14,5 @@ here’s the short slide desk I prepared. Apparently people like it; it’s
 gone from 66 to 43,000+ views in about 24 hours on SlideShare.
 Enjoy!
 
-<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0"
-height="426" width="510"
-src="http://www.slideshare.net/slideshow/embed_code/9724716?rel=0"></iframe>
+<iframe scrolling="no" marginheight="0" marginwidth="0" frameborder="0" height="426" width="510" src="http://www.slideshare.net/slideshow/embed_code/9724716?rel=0">
+</iframe>

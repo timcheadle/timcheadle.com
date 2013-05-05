@@ -2,8 +2,6 @@
 title: Design Thinking
 date: 2012-06-20 00:00 UTC
 tags:
-- design
-- talks
 ---
 A few weeks ago, I gave a talk at [ATLOSCon](http://www.atlantaobjectivists.com/atloscon-2012)
 with my friend and fellow designer, [Tori Press](http://www.redqueenstudio.com/). The conference was
@@ -28,5 +26,5 @@ everyday life to make this process tangible and fun.
 I had a blast giving this talk with Tori and designing the slides.
 Enjoy!
 
-<script src="http://speakerdeck.com/embed/4fc046a066174c001f0073af.js"
-type="text/javascript"></script>
+<script src="http://speakerdeck.com/embed/4fc046a066174c001f0073af.js" type="text/javascript">
+</script>
