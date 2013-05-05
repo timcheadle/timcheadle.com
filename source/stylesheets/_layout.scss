@@ -118,8 +118,10 @@ body {
     border-top: none;
   }
 
-  header {
-    margin-bottom: 17px;
+  &.standalone {
+    header {
+      margin-bottom: 17px;
+    }
   }
 }
 
