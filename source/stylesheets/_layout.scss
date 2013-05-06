@@ -52,7 +52,6 @@ body > header {
   @include clearfix;
 
   @include breakpoint(small) {
-    margin-bottom: 20px;
     text-align: center;
   }
 
