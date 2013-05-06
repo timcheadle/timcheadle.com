@@ -205,6 +205,10 @@ body > footer {
 //
 // Responsive Shizz
 //
+* {
+  @include transition(all 0.2s linear);
+}
+
 img, embed, iframe {
   display: block;
   border: 0;
