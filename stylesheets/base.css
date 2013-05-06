@@ -1493,13 +1493,20 @@ body > footer {
       margin-bottom: 10px; }
 
 /* line 208, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+* {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+
+/* line 212, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
 img, embed, iframe {
   display: block;
   border: 0;
   max-width: 100%; }
 
 /* line 4, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
-body > footer h4, body, button, input, select, body > header h1 {
+h1, h2, h3, h4, h5, h6, body, button, input, select {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", Georgia, Cambria, serif;
   -webkit-font-smoothing: antialiased; }
 
