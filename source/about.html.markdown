@@ -9,7 +9,8 @@ Hi! My name is Tim; nice to meet you.
 I'm a web software engineer, designer, problem solver and entrepreneur.
 Generally speaking, I just love making things. Originally from Virginia,
 I now live in Charlotte, North Carolina with my beautiful family. Prior
-to moving, I spent five years working at Google in San Francisco.
+to moving, I spent five years working as an engineering manager at
+Google in San Francisco.
 
 In 2011 I founded a web engineering consultancy called [Rational Means](http://rationalmeans.com),
 where I help companies use technology to grow and improve their
