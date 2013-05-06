@@ -114,9 +114,11 @@ body > header {
 //
 // Articles
 //
+$article_padding: 15px;
+
 #content > article {
   border-top: 1px solid $article_border_color;
-  padding: 40px 0;
+  padding: ($article_padding * 2) 0;
 
   &:first-child {
     border-top: none;
@@ -124,7 +126,7 @@ body > header {
   }
 
   &:last-child {
-    padding-bottom: 20px;
+    padding-bottom: $article_padding;
   }
 
   &.standalone {

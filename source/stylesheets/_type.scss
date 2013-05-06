@@ -120,7 +120,7 @@ body > header {
   h1 {
     @extend %article-header-font;
     font-size: 29px;
-    line-height: 1.4;
+    line-height: 32px;
   }
 
   .subtitle, nav {
@@ -128,7 +128,7 @@ body > header {
     color: $header_nav_color;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1;
+    line-height: 14px;
     padding: 0;
     text-shadow: 1px 1px lighten($article_meta_color, 22%);
     text-transform: uppercase;
