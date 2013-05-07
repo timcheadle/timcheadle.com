@@ -28,13 +28,16 @@
 //
 body, button, input, select {
   @extend %body-font;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
 
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
     font-size: 16px;
+  }
+  @include breakpoint(medium) {
+    font-size: 18px;
   }
 }
 
@@ -57,7 +60,7 @@ h4 { font-size: 19px; font-weight: 500; }
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.4em;
 }
 
 em { font-style: italic; }
@@ -87,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 // Lists
 //
 ol, ul {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.9em;
 }
 
 ul ul,
@@ -98,17 +101,16 @@ ol ul {
 }
 
 ol, ul {
-  margin-left: 0;
-  padding-left: 1em;
-  text-indent: -1em;
+  margin-left: 1.2em;
+  text-indent: 0;
 
   li {
-    padding-bottom: 0.2em;
+    padding-bottom: 0.5em;
   }
 }
 
-ol { list-style: decimal inside; }
-ul { list-style: disc inside; }
+ol { list-style: decimal outside; }
+ul { list-style: disc outside; }
 
 
 //

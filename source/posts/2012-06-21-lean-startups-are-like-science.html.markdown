@@ -33,14 +33,11 @@ test things randomly and see what happens; use the following process:
 - **Build a Hypothesis**  
   Come up with an idea about what product customers want and would pay you
   to have. 
-
 - **Design the Experiment**  
   Build the product and focus on launching it, not perfecting it. 
-
 - **Run the Experiment**  
   Launch quickly. Put the product in front of customers as soon as
   possible. 
-
 - **Observe the Results**  
   Collect customer feedback and watch their use of the product. You'll
   integrate this data into the next round.
