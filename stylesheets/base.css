@@ -1423,7 +1423,7 @@ body > header {
 
 /* line 108, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
 #content {
-  padding: 20px 0; }
+  padding: 20px 0 40px; }
 
 /* line 118, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
 #content > article {
