@@ -23,9 +23,9 @@ interesting businesses. To that end, I founded and continue to organize
 technology creatives to share ideas and resources. I also serve as an
 advisor for several startups and accelerator programs.
 
-Outside of work, I'm a huge coffee geek, love being outside, and I'm a proud
-father of a pretty great toddler boy. I used to be an electronic music DJ,
-and now I'm teaching myself how to draw and illustrate.
+Outside of work, I'm a huge coffee geek, love being outside, and I'm a
+proud father of a pretty great toddler . I used to be an electronic
+music DJ, and now I'm teaching myself how to draw and illustrate.
 
 I’m [@timcheadle](https://twitter.com/timcheadle) on Twitter, and I'd
 love to hear your ideas.
