@@ -1516,120 +1516,123 @@ body > header .subtitle, body > header nav, body > footer, #content > article he
 
 /* line 29, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 body, button, input, select {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   text-rendering: optimizeLegibility; }
-  @media (max-width: 640px) {
+  @media (max-width: 500px) {
     /* line 29, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body, button, input, select {
       font-size: 16px; } }
+  @media (max-width: 640px) {
+    /* line 29, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    body, button, input, select {
+      font-size: 18px; } }
 
-/* line 41, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 44, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #c24f00;
   line-height: 1.7; }
 
-/* line 47, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 50, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h1 {
   font-size: 36px;
   font-weight: 900; }
 
-/* line 48, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 51, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h2 {
   font-size: 29px;
   font-weight: 900; }
 
-/* line 49, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 52, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h3 {
   font-size: 24px;
   font-weight: 700; }
 
-/* line 50, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 53, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h4 {
   font-size: 19px;
   font-weight: 500; }
 
 @media (max-width: 640px) {
-  /* line 53, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 56, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h1 {
     font-size: 29px;
     font-weight: 900; }
 
-  /* line 54, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 57, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h2 {
     font-size: 24px;
     font-weight: 900; }
 
-  /* line 55, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 58, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h3 {
     font-size: 19px;
     font-weight: 700; }
 
-  /* line 56, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 59, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   h4 {
     font-size: 16px;
     font-weight: 500; } }
-/* line 59, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 62, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.4em; }
 
-/* line 63, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 66, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 em {
   font-style: italic; }
 
-/* line 64, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 67, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 strong {
   font-weight: bold; }
 
-/* line 70, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 73, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 a {
   color: #c24f00; }
-  /* line 73, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 76, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   a:hover {
     color: #a94500; }
 
-/* line 79, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 82, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #c24f00;
   text-decoration: none; }
 
-/* line 89, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 92, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ol, ul {
-  margin-bottom: 1.5em; }
+  margin-bottom: 0.9em; }
 
-/* line 96, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 99, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ul ul,
 ul ol,
 ol ol,
 ol ul {
   margin-bottom: 0; }
 
-/* line 100, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 103, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ol, ul {
-  margin-left: 0;
-  padding-left: 1em;
-  text-indent: -1em; }
-  /* line 105, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  margin-left: 1.2em;
+  text-indent: 0; }
+  /* line 107, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   ol li, ul li {
-    padding-bottom: 0.2em; }
+    padding-bottom: 0.5em; }
 
-/* line 110, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 112, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ol {
-  list-style: decimal inside; }
+  list-style: decimal outside; }
 
-/* line 111, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 113, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 ul {
-  list-style: disc inside; }
+  list-style: disc outside; }
 
-/* line 117, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 119, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 body > header {
   font-weight: 300; }
-  /* line 120, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 122, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > header h1 {
     font-size: 29px;
     line-height: 32px; }
-  /* line 126, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 128, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > header .subtitle, body > header nav {
     color: #bbbbbb;
     font-size: 14px;
@@ -1638,15 +1641,15 @@ body > header {
     padding: 0;
     text-shadow: 1px 1px #f3f3f3;
     text-transform: uppercase; }
-  /* line 139, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 141, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > header nav li a {
     color: #bbbbbb;
     text-decoration: none; }
 
-/* line 153, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 155, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 #content > article header h1, #content > article header h2 {
   line-height: 1.3; }
-/* line 157, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 159, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 #content > article header time {
   color: #bbbbbb;
   display: block;
@@ -1656,34 +1659,34 @@ body > header {
   text-shadow: 1px 1px #f3f3f3;
   text-transform: uppercase; }
 
-/* line 174, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+/* line 176, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
 body > footer {
   font-size: 15px;
   font-weight: 300; }
-  /* line 179, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 181, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer h4 {
     font-weight: bold; }
-  /* line 184, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 186, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer a {
     color: inherit;
     text-decoration: none; }
-    /* line 188, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 190, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body > footer a:visited {
       color: inherit; }
-    /* line 192, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 194, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body > footer a:hover {
       color: #bbbbb9; }
-  /* line 197, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 199, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer .about a {
     text-decoration: underline; }
-  /* line 201, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 203, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer .contact ul {
     list-style: none;
     padding-left: 0;
     text-indent: 0; }
-    /* line 206, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+    /* line 208, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
     body > footer .contact ul li i {
       padding-right: 8px; }
-  /* line 211, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
+  /* line 213, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_type.scss */
   body > footer .copyright {
     font-size: 13px; }
