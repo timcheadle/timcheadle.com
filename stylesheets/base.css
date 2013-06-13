@@ -1466,8 +1466,9 @@ body > footer {
       width: 30%; }
       /* line 169, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
       body > footer section.contact ul {
-        margin-bottom: 0; }
-    /* line 174, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+        margin-bottom: 0;
+        margin-left: 0; }
+    /* line 175, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
     body > footer section.copyright {
       clear: both;
       padding-bottom: 40px; }
@@ -1476,29 +1477,29 @@ body > footer {
       body > footer section {
         float: none;
         padding: 20px 0; }
-        /* line 183, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+        /* line 184, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
         body > footer section.about, body > footer section.contact, body > footer section.copyright {
           padding-right: 0;
           width: 100%; }
-        /* line 188, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+        /* line 189, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
         body > footer section.about {
           padding-top: 40px; }
-        /* line 192, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+        /* line 193, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
         body > footer section.copyright {
           padding-bottom: 40px; } }
-    /* line 197, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+    /* line 198, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
     body > footer section h4 {
       border-bottom: 1px solid #c24f00;
       margin-bottom: 10px; }
 
-/* line 209, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+/* line 210, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
 * {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
 
-/* line 213, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
+/* line 214, /Users/tim/Dropbox/src/timcheadle.com/source/stylesheets/_layout.scss */
 img, embed, iframe {
   display: block;
   border: 0;
