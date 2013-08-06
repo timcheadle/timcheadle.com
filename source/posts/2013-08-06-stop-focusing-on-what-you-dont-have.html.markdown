@@ -59,5 +59,5 @@ get started. Just get it done. Go make your own luck and discover new
 situations. Your business will be the better for it.
 
 <footer>
-  <strong>Thanks</strong> to <a href="http://twitter.com/bigfleet">Jim Van Fleet</a> for his help editing this post.
+  <strong>Thanks</strong> to <a href="http://twitter.com/bigfleet">Jim Van Fleet</a> for his help editing this post. <a href="https://news.ycombinator.com/item?id=6167211">Discuss on Hacker News</a>.
 </footer>
