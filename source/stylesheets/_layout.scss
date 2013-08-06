@@ -133,6 +133,12 @@ $article_padding: 15px;
       margin-bottom: 17px;
     }
   }
+
+  blockquote {
+    border-left: 3px solid $dark_orange;
+    //margin-left: -12px;
+    padding-left: 12px;
+  }
 }
 
 
