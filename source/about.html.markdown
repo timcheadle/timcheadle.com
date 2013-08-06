@@ -12,6 +12,11 @@ I now live in Charlotte, North Carolina with my beautiful family. Prior
 to moving, I spent five years working as an engineering manager at
 Google in San Francisco.
 
+Most of my time is spent building [Umba](http://shop.umbassadors.com),
+a startup focused on curating creative handmade goods that delight and
+inspire. I joined as CTO in 2013 and love working with my team and
+our partner artists to build a product that our customers love.
+
 In 2011 I founded a web engineering consultancy called [Rational Means](http://rationalmeans.com),
 where I help companies use technology to grow and improve their
 business. In practice, this means building primarily Ruby on Rails apps,
