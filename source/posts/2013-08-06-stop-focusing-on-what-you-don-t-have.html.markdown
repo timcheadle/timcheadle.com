@@ -58,4 +58,6 @@ In short, you already have what it takes. You don’t need anyone else to
 get started. Just get it done. Go make your own luck and discover new
 situations. Your business will be the better for it.
 
-
+<footer>
+  <strong>Thanks</strong> to <a href="http://twitter.com/bigfleet">Jim Van Fleet</a> for his help editing this post.
+</footer>
