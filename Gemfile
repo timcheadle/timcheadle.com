@@ -7,6 +7,7 @@ gem 'middleman-blog', '~> 3.2.0'
 gem 'middleman-gh-pages', '~> 0.0.2'
 gem 'middleman-livereload', '~> 3.0.1'
 
+gem 'builder', '~> 3.2.2'
 gem 'compass', '~> 0.12.2'
 gem 'font-awesome-middleman', '~> 0.0.1'
 gem 'nokogiri', '~> 1.5.9'
