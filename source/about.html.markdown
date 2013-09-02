@@ -6,13 +6,13 @@ title: About Me
 
 Hi! My name is Tim; nice to meet you.
 
-I'm a web software engineer, designer, problem solver and entrepreneur.
-Generally speaking, I just love making things. Originally from Virginia,
-I now live in Charlotte, North Carolina with my beautiful family. Prior
-to moving, I spent five years working as an engineering manager at
-Google in San Francisco.
+I'm a software craftsman, designer, and problem solver.  Generally
+speaking, I just love making things. Originally from Virginia, I now
+live in Charlotte, North Carolina with my beautiful family. Prior to
+moving, I spent five years working as an engineering manager at Google
+in San Francisco.
 
-Most of my time is spent building [Umba](http://shop.umbassadors.com),
+Most of my time is spent building [Umba](http://umba.com)
 a startup focused on curating creative handmade goods that delight and
 inspire. I joined as CTO in 2013 and love working with my team and
 our partner artists to build a product that our customers love.
