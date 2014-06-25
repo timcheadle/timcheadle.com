@@ -72,16 +72,21 @@ strong { font-weight: bold; }
 //
 a {
   color: $link_color;
+  @include underline($link_color, 1px);
+  text-decoration: none;
 
   &:hover {
     color: $link_color_hover;
+    @include underline($link_color_hover, 2px);
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   a {
-    color: $header_color;
-    text-decoration: none;
+    color: inherit;
+  }
+  a, a:hover {
+    @include no-underline;
   }
 }
 
@@ -148,7 +153,7 @@ body > header {
     li {
       a {
         color: $header_nav_color;
-        text-decoration: none;
+        @include no-underline;
       }
     }
   }
@@ -189,6 +194,7 @@ body > header {
 //
 body > footer {
   @extend %footer-font;
+  color: $footer_color;
   font-size: 15px;
   font-weight: 300;
 
@@ -199,7 +205,7 @@ body > footer {
 
   a {
     color: inherit;
-    text-decoration: none;
+    @include underline($footer_color, 1px);
 
     &:visited {
       color: inherit;
@@ -207,11 +213,12 @@ body > footer {
 
     &:hover {
       color: darken($light_gray, 10%);
+      @include underline($light_gray, 1px);
     }
   }
 
-  .about a {
-    text-decoration: underline;
+  .contact a {
+    @include no-underline;
   }
 
   .contact ul {

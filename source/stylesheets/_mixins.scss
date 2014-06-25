@@ -8,3 +8,16 @@
     @media (max-width: 640px) { @content; }
   }
 }
+
+//
+// Type Mixins
+//
+@mixin underline($color, $thickness: 2px) {
+  border-bottom: 1px solid $color;
+  box-shadow: inset 0 (-1 * ($thickness - 1px)) 0 $color;
+}
+
+@mixin no-underline {
+  border-bottom: none;
+  box-shadow: none;
+}
