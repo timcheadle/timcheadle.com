@@ -1,24 +1,23 @@
 ---
-pageable: true
+hero_image: https://pbs.twimg.com/profile_banners/29398491/1555095764/1500x500
 ---
 
-<% page_articles.each do |article| %>
-  <article class="post">
-    <header>
-      <h2><a href="<%= article.url %>"><%= article.title %></a></h2>
-      <time datetime="<%= article.date %>"><%= article.date.strftime('%B %e, %Y') %></time>
-    </header>
-  </article>
-<% end %>
+<h1>Hi! I’m Tim Cheadle.<br>
+  It’s nice to meet you.
+</h1>
 
-<% if prev_page || next_page %>
-  <nav class="pagination">
-    <% if prev_page %>
-      <a href="<%= prev_page.url %>">Newer Posts</a>
-    <% end %>
-    <% if prev_page && next_page %> | <% end %>
-    <% if next_page %>
-      <a href="<%= next_page.url %>">Older Posts</a>
-    <% end %>
-  </nav>
-<% end %>
+<p>
+  I’m the Director of Engineering at Resolve to Save Lives. I spend my days leading the team that builds Simple, an app that helps nurses and doctors treat patients for high blood pressure. We’re focused on saving millions of lives around the world by building useful, free software that empowers healthcare workers.
+</p>
+
+<p>
+  Previously, I was the Infrastructure Lead at General Assembly, a Site Reliability Engineer at Google, and CTO at several startups. For nearly a decade I founded and lead Rational Means, a web development and consulting agency. I’m passionate about creating value with software, building products with empathy, and solving human problems.
+</p>
+
+<p>
+  My happy place is playing with my two kids and traveling the world. I'm a decent cook and I’m a huge whiskey geek, both of which my friends seem to like. Also, I was an electronic music  DJ for years and still love to share playlists.
+</p>
+
+<p>
+  I’m @timcheadle on Twitter. Please don’t hesitate to say hello.
+</p>
