@@ -48,3 +48,16 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+# Blog Settings
+set :blog_title, 'Tim Cheadle'
+set :blog_email, 'tim@rationalmeans.com'
+
+# Helpers
+helpers do
+  def blog_gravatar(size=100)
+    hash = Digest::MD5.hexdigest(config[:blog_email].downcase)
+    "http://www.gravatar.com/avatar/#{hash}?s=#{size}"
+  end
+end
+
