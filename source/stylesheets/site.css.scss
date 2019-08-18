@@ -1,6 +1,6 @@
 @mixin header-font {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
+  font-family: "Sura", serif;
+  font-weight: 700;
 }
 
 @mixin body-font {
@@ -30,6 +30,8 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   @include header-font;
+  line-height: 1.1em;
+  margin-bottom: 1em;
 }
 
 h1 { font-size: 48px; }
@@ -37,6 +39,7 @@ h2 { font-size: 36px; }
 
 p {
   line-height: 1.5em;
+  margin-top: 0;
 }
 
 .headshot {
