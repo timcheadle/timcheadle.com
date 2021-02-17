@@ -1,0 +1,52 @@
+@mixin header-font {
+  font-family: "Sura", serif;
+  font-weight: 700;
+}
+
+@mixin body-font {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+body {
+  @include body-font;
+
+  background: #ECEBE9;
+  padding: 0;
+  margin: 0;
+
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include header-font;
+  line-height: 1.1em;
+  margin-bottom: 1em;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 36px; }
+
+p {
+  line-height: 1.5em;
+  margin-top: 0;
+}
+
+.headshot {
+  border-radius: 50%;
+  float: right;
+  height: 100px;
+  overflow: hidden;
+  width: 100px;
+}
+

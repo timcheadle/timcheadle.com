@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--
         s       .                                                                        ..             ..
        :8      @88>                                  .uef^"                            dF         x .d88"
@@ -13,69 +13,50 @@
       'Y"      R888"    `~    "    `"`    "8888P'  m888N= 888>  "88888%   "888*""888"  `"888*""    ^*888%   "88888%
                 ""                          "P'     `Y"   888     "YP'     ^Y"   ^Y'      ""         "%       "YP'
                                                          J88"
-                                                         @%        timcheadle.com // (c) <%= Time.now.year %> tim cheadle
+                                                         @%        timcheadle.com // © <%= Time.now.year %>
                                                        :"
 -->
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title><%= current_page.data.title ? "#{current_page.data.title} &mdash; " : '' %>Tim Cheadle</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<html>
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-25525539-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <script type="text/javascript" src="//use.typekit.net/ehi5fnp.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    gtag('config', 'UA-25525539-1');
+  </script>
 
-    <%= stylesheet_link_tag "base" %>
+  <meta charset="utf-8">
+  <title>Tim Cheadle<%= " &ndash; #{current_page.data.title}" if current_page.data.title.present? %></title>
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="../js/html5shiv.js"></script>
-    <![endif]-->
+  <meta name="description" content="Tim Cheadle">
+  <meta name="author" content="Tim Cheadle is an engineering leader who’s excited about creating value with software, building products with empathy, and solving human problems.">
 
-    <link rel="alternate" type="application/atom+xml" href="feed.xml" title="Tim Cheadle">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrnk-to-fit=no">
 
+  <meta property="og:url"         content="https://www.timcheadle.com/">
+  <meta property="og:type"        content="article">
+  <meta property="og:title"       content="Tim Cheadle">
+  <meta property="og:description" content="Tim Cheadle is an engineering leader who’s excited about creating value with software, building products with empathy, and solving human problems.">
+  <meta property="og:image"       content="">
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Sura:700&display=swap" rel="stylesheet">
 
-  <body>
-    <header>
-      <%= partial 'layouts/header' %>
-    </header>
+  <%= stylesheet_link_tag "site" %>
+  <%= javascript_include_tag "site" %>
 
-    <div id="wrapper">
-      <div class="container">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
 
-        <section id="content">
-          <%= yield %>
-        </section>
-      </div>
-    </div>
+<body>
+  <% if current_page.data.hero_image.present? %>
+    <img class="hero" src="<%= current_page.data.hero_image %>">
+  <% end %>
 
-    <footer>
-      <%= partial 'layouts/footer' %>
-    </footer>
-
-    <%= javascript_include_tag "all" %>
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-25525539-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-  </body>
+  <div class="container">
+    <%= yield %>
+  </div>
+</body>
 </html>
